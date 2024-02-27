@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>K&S CONSTRUCTION</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <!-- Moving background -->
+  <div class="moving-bg"></div>
+
+  <header style="margin-left: 8px;margin-right: 8px;">
+    <h1 style="margin-left: 40px; margin-top: 0px; margin-bottom: 0px;padding-top: 8px;padding-bottom: 8px;">K&S CONSTRUCTION</h1>
+    <nav>
+      <ul>
+        <li><a href="home.html">Home</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="services.html">Services</a></li>
+        <li><a href="portfolio.html">Porfolio</a></li>
+        <li><a href="testemonials.html">Testemonials</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <section class="hero">
+    <div class="hero-content">
+      <h2>Welcome to stress free </h2>
+      <p>Discover the beauty of our services.</p>
+      <a href="about.html" class="btn">Learn More</a>
+    </div>
+  </section>
+
+  <section class="features">
+    <h2>Our Features</h2>
+    <div class="feature">
+      <h3>Quality Design</h3>
+      <p>Our experienceand pride for a job well done will ensure your satisfaction.</p>
+    </div>
+    <div class="feature">
+      <h3>Responsive Layout</h3>
+      <p>Our website is fully responsive, providing a seamless experience across all devices.</p>
+    </div>
+    <div class="feature">
+      <h3>Engaging Content</h3>
+      <p>We use visually appealing imagery and interactive elements to captivate our audience.</p>
+    </div>
+  </section>
+
+  <footer>
+    <p>&copy; 2024 ALTERED VISION. All rights reserved.</p>
+  </footer>
+  <!-- Optional JavaScript to handle the scroll effect -->
+  <script>
+    window.addEventListener('scroll', function() {
+      var scrolled = window.scrollY;
+      var bg = document.querySelector('.moving-bg');
+      bg.style.transform = 'translateY(' + (scrolled * 0.2) + 'px)'; // Adjust the scroll speed as needed
+    });
+  </script>
+</body>
+</html>
