@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>ALTERED VISION - ABOUT US</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+   <!-- Moving background -->
+   <div class="moving-bg" style="transform: translateY(0px); height: 3400px; top: -1000px; bottom: -200px; width: 100%;"></div>
+  
+   <header>
+    <h1 style="margin-left: 60px; margin-top: 1px; margin-bottom: 1px;">ABOUT ALTERED VISION</h1>
+    <nav>
+      <ul>
+        <li><a href="home.html">Home</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="services.html">Services</a></li>
+        <li><a href="portfolio.html">Porfolio</a></li>
+        <li><a href="testemonials.html">Testemonials</a></li>
+        <li><a href="survey.html">Survey</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+<div class="background-wrapper">
+  <section class="hero">
+    <div class="hero-content">
+      <h2>Who is Altered Vision?  </h2>
+      <p>Discover the wide range of our services.</p>
+      <a href="about.html" class="btn">Learn More</a>
+    </div>
+  </section>
+
+  <section>
+     <div>
+        
+     </div>
+  </section>
+
+
+  <section class="features">
+    <h2>Come for a photoshoot adventure today! </h2>
+    <div class="feature">
+        <h3>More than just an awkward photoshoot. We get out on tour and make a day of it. </h3>
+        <p>Our photography tours are something to remember.</p>
+    </div>
+    <div class="feature">
+        <h3>Responsive Layout</h3>
+        <p>Our website is fully responsive, providing a seamless experience across all devices.</p>
+    </div>
+  </section>
+
+  <footer>
+    <p>&copy; 2024 ALTERED VISION. All rights reserved.</p>
+  </footer>
+  <!-- Optional JavaScript to handle the scroll effect -->
+  <script>
+    window.addEventListener('scroll', function() {
+      var scrolled = window.scrollY;
+      var bg = document.querySelector('.moving-bg');
+      bg.style.transform = 'translateY(' + (scrolled * 0.2) + 'px)'; // Adjust the scroll speed as needed
+    });
+  </script>
+</body>
+</html>
